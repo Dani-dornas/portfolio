@@ -1,0 +1,13 @@
+#projetos {
+    background-color: #3F0042;
+    padding: 30px 0px 30px 0px;
+}
+
+.listprojects li {
+    margin: 0px 20px 0px 20px;
+}
+
+.listprojects li a {
+    color: white;
+    text-decoration: none;
+}
