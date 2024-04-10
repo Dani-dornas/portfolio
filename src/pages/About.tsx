@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 const AboutSld = styled.div`
   background-color: #88008F;
+  padding: 1vw 20vw;
+
+  & p {
+    color: white;
+
+  }
 `;
 
 export default function About() {

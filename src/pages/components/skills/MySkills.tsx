@@ -14,6 +14,8 @@ import {
   ts,
 } from "../../../assets";
 import BasicLevel from "./BasicLevel";
+import AdvancedLevel from "./AdvancedLevel";
+import MidLevel from "./MidLevel";
 
 const MySkillsSld = styled.ul`
   display: flex;
@@ -21,6 +23,7 @@ const MySkillsSld = styled.ul`
   flex-wrap: wrap;
   align-items: center;
   list-style: none;
+  padding: 0px 15vw;
   & li {
     display: flex;
     flex-direction: column;
@@ -28,8 +31,9 @@ const MySkillsSld = styled.ul`
     text-align: center;
     width: 150px;
     height: 150px;
+    margin: 0px 8px;
   }
-  & li h4 {
+  & li h5 {
     color: white;
   }
   & img {
@@ -42,64 +46,64 @@ export default function MySkills() {
   return (
     <MySkillsSld>
       <li>
-        <h4>HTML 5</h4>
+        <h5>HTML 5</h5>
         <img src={html} alt="html-icon" />
-        <BasicLevel />
+        <AdvancedLevel />
       </li>
       <li>
-        <h4>CSS 3</h4>
+        <h5>CSS 3</h5>
         <img src={css} alt="css-icon" />
-        <BasicLevel />
+        <AdvancedLevel />
       </li>
       <li>
-        <h4>JAVASCRIPT</h4>
+        <h5>JAVASCRIPT</h5>
         <img src={js} alt="js-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
       <li>
-        <h4>TYPESCRIPT</h4>
+        <h5>TYPESCRIPT</h5>
         <img src={ts} alt="ts-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
       <li>
-        <h4>REACT</h4>
+        <h5>REACT</h5>
         <img src={react} alt="react-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
       <li>
-        <h4>POSTGRES</h4>
+        <h5>POSTGRES</h5>
         <img src={postgres} alt="postgres-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
       <li>
-        <h4>PYTHON</h4>
+        <h5>PYTHON</h5>
         <img src={python} alt="python-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
       <li>
-        <h4>LINUX</h4>
+        <h5>LINUX</h5>
         <img src={linux} alt="linux-icon" />
         <BasicLevel />
       </li>
       <li>
-        <h4>NODE</h4>
+        <h5>NODE</h5>
         <img src={node} alt="node-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
       <li>
-        <h4>OFFICE</h4>
+        <h5>OFFICE</h5>
         <img src={office} alt="office-icon" />
-        <BasicLevel />
+        <AdvancedLevel />
       </li>
       <li>
-        <h4>GIT</h4>
+        <h5>GIT</h5>
         <img src={git} alt="git-icon" />
-        <BasicLevel />
+        <AdvancedLevel />
       </li>
       <li>
-        <h4>FIGMA</h4>
+        <h5>FIGMA</h5>
         <img src={figma} alt="figma-icon" />
-        <BasicLevel />
+        <MidLevel />
       </li>
     </MySkillsSld>
   );

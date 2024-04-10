@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
-const Level1 = styled.div`
+const Level2 = styled.div`
   width: 100%;
   border: 1px solid white;
   border-radius: 10px;
   height: 20px;
 & div {
   background-color: black;
-  width: 33%;
+  width: 50%;
   border-radius: 10px;
   height: 99%;
 }
 `;
 
-export default function BasicLevel() {
-  return <Level1><div>.</div></Level1>;
+export default function MidLevel() {
+  return <Level2><div>.</div></Level2>;
 }

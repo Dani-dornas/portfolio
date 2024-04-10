@@ -4,7 +4,7 @@ import { ListProjects } from './components';
 
 const ProjectsSld = styled.div`
   background-color: #3F0042;
-  padding-bottom: 2vw;
+  padding: 1vw 0vw;
 `;
 
 export default function Projects() {
