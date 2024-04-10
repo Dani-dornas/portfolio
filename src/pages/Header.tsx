@@ -1,10 +1,24 @@
-import { HeaderLogo, HeaderNav } from './components';
+import styled from 'styled-components';
+import { HeaderNav } from './components';
 
-export const Header = () => {
+const HeaderSld = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+`;
+
+const Logo = styled.img`
+  border-radius: 50%;
+  margin: 10px;
+`;
+
+export default function Header() {
   return (
-    <header>
-      <HeaderLogo />
+    <HeaderSld>
+      <Logo src="" alt="Daniel Dornelas" />
       <HeaderNav />
-    </header>
+    </HeaderSld>
   );
 };

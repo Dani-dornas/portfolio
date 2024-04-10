@@ -1,9 +1,18 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Times New Roman", Times, serif;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: #3F0042;
+  padding: 0vw 3vw;
+}
+
+img {
+  color: white;
+}
 
 h1 {
   color: white;
@@ -11,20 +20,6 @@ h1 {
   padding: 20px;
 }
 
-ul {
-  list-style-type: none;
-}
-
 li::before {
   content: "\200B";
-}
-
-.display-flex-center {
-  display: flex;
-  justify-content: center;
-}
-
-.display-flex-center-collum {
-  display: flex;
-  flex-direction: column;
 }

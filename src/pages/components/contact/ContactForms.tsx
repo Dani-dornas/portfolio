@@ -1,4 +1,4 @@
-export const ContactForms = () => {
+export default function ContactForms() {
   return (
     <div className="formulario-contato">
       <input type="text" placeholder="Nome" className="campo-contato" />

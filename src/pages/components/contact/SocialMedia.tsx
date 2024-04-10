@@ -1,6 +1,6 @@
 import { discord, twitter, youtube } from "../../../assets";
 
-export const SocialMedia = () => {
+export default function SocialMedia() {
   return (
     <div className="display-flex-center social-media">
       <a href="#">

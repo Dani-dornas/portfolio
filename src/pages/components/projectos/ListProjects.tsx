@@ -1,4 +1,7 @@
-export const ListProjects = () => {
+export default function ListProjects() {
+
+  
+
   return (
     <ul className="display-flex-center listprojects">
       <li>

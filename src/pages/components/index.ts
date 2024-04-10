@@ -1,11 +1,12 @@
-import { ContactForms } from "./contact/ContactForms";
-import { SocialMedia } from "./contact/SocialMedia";
-import { HeaderLogo } from "./header/HeaderLogo";
-import { HeaderNav } from "./header/HeaderNav";
-import { ListProjects } from "./projectos/ListProjects";
+import ContactForms from "./contact/ContactForms";
+import SocialMedia from "./contact/SocialMedia";
+import DownloadCVButton from "./header/DownloadCV";
+import HeaderNav from "./header/HeaderNav";
+import ListProjects from "./projectos/ListProjects";
+
 
 export {
-    HeaderLogo,
+    DownloadCVButton,
     HeaderNav,
     ContactForms,
     SocialMedia,
