@@ -1,11 +1,17 @@
+import styled from 'styled-components';
 import { ListProjects } from './components';
-import './css/projects.css'
 
-export const Projects = () => {
+
+const ProjectsSld = styled.div`
+  background-color: #3F0042;
+  padding-bottom: 2vw;
+`;
+
+export default function Projects() {
   return (
-    <div id='projetos'>
+    <ProjectsSld id='Projects'>
       <h1>Projetos</h1>
       <ListProjects />
-    </div>
+    </ProjectsSld>
   );
 };

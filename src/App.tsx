@@ -1,5 +1,5 @@
 import { Contact, Header, Projects, Skills, About } from "./pages";
-import "./index.css"
+import "./css/index.css"
 
 function App() {
   return (

@@ -11,20 +11,20 @@ const CVButton = styled.button`
   transition: all 0.6s ease;
   transition: border 0s ease;
 
-  & :hover {
+  &:hover {
     cursor: pointer;
     background-color: #a1d28a;
     color: black;
   }
 
-  & :active {
+  &:active {
     background-color: #80a56e;
     border: 2px solid black;
   }
 `;
 
-function DonwloadCV(){
-  console.log("Download CV")
+function DonwloadCV() {
+  console.log("Download CV");
 }
 
 export default function DownloadCVButton() {

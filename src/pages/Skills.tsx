@@ -1,9 +1,15 @@
-import './css/skills.css'
+import styled from 'styled-components';
+import { MySkills } from './components';
+
+const SkillsSld = styled.div`
+  background-color: #88008F;
+`;
 
 export const Skills = () => {
   return (
-    <div id='skills'>
+    <SkillsSld id='Skills'>
       <h1>Skills</h1>
-    </div>
+      <MySkills />
+    </SkillsSld>
   );
 };

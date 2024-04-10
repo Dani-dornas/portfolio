@@ -1,14 +1,18 @@
+import styled from "styled-components";
 import { ContactForms, SocialMedia } from "./components";
-import "./css/contact.css";
 
-export const Contact = () => {
+const ContactSld = styled.div`
+  background-color: #3F0042;
+`;
+
+export default function Contact() {
   return (
-    <div id="contato">
+    <ContactSld id="Contact">
       <h1>Contatos</h1>
 
       <ContactForms />
 
       <SocialMedia />
-    </div>
+    </ContactSld>
   );
 };

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { HeaderNav } from './components';
+import { logo } from '../assets';
 
 const HeaderSld = styled.header`
   display: flex;
@@ -11,13 +12,13 @@ const HeaderSld = styled.header`
 
 const Logo = styled.img`
   border-radius: 50%;
-  margin: 10px;
+  max-width: 70px;
 `;
 
 export default function Header() {
   return (
     <HeaderSld>
-      <Logo src="" alt="Daniel Dornelas" />
+      <Logo src={logo} alt="Daniel Dornelas" />
       <HeaderNav />
     </HeaderSld>
   );

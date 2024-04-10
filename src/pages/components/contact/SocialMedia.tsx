@@ -1,8 +1,22 @@
+import styled from "styled-components";
 import { discord, twitter, youtube } from "../../../assets";
+
+const SocialMediaSld = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #88008F;
+
+  & a img {
+    max-width: 40px;
+    margin: 10px
+  }
+`;
 
 export default function SocialMedia() {
   return (
-    <div className="display-flex-center social-media">
+    <SocialMediaSld>
       <a href="#">
         <img src={twitter} alt="Twitter" />
       </a>
@@ -12,6 +26,6 @@ export default function SocialMedia() {
       <a href="#">
         <img src={youtube} alt="You Tube" />
       </a>
-    </div>
+    </SocialMediaSld>
   );
 };
